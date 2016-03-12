@@ -1,0 +1,198 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Docs for complexType unit_uri in Schema Docs</title>
+      <meta http-equiv="content-type" content="text/html;charset=utf-8"></meta>
+      <link rel="stylesheet" type="text/css" href="styles/site.css"></link><script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script><script type="text/javascript" src="scripts/highlight.pack.js"></script><script type="text/javascript" src="scripts/xmlstudio.js"></script><script type="text/javascript" src="scripts/jquery.cookie.js"></script></head>
+   <body style="margin:10px"><script type="text/javascript">
+                      EnsureInFrame('SimpleType', 'unit_uri');
+                    </script><div class="pageheader">
+         Documentation for Schema Docs
+      </div>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label" width="120px;"><b>Definition Type:</b></td>
+               <td>SimpleType</td>
+            </tr>
+            <tr>
+               <td class="label" width="120px;"><b>Name:</b></td>
+               <td>unit_uri</td>
+            </tr>
+            <tr>
+               <td class="label" width="120px;"><b>Containing Schema:</b></td>
+               <td><a href="field_xsd.html">field.xsd</a></td>
+            </tr>
+         </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label"><img id="xsdDiagram" class="expand" height="11" width="11" src="images/minus.gif" alt="Collapse"></img> <b>XSD Schema Diagram:</b> 
+               </td>
+            </tr>
+            <tr id="xsdDiagram_body_id">
+               <td><map name="DiagramMap" id="DiagramMap"></map><img src="images/unit_uri.png" border="0" alt="XSD Diagram of unit_uri" usemap="#DiagramMap"></img></td>
+            </tr>
+         </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label"><img id="xsdCode" class="expand" height="11" width="11" src="images/minus.gif" alt="Collapse"></img> <b>XSD Schema Code:</b> 
+               </td>
+            </tr>
+            <tr id="xsdCode_body_id">
+               <td><pre><code>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:simpleType name="unit_uri"&gt;
+    &lt;xs:restriction base="xs:string"&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.unitless" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.length.meter" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.mass.kilogram" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.time.second" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.electric_current.ampere" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.thermodynamic_temperature.kelvin" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.amount_of_substance.mole" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.luminous_intensity.candela" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.area.square_metres" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.volume.cubic_metres" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.velocity.metres_per_second" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.acceleration.metres_per_second_squared" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.wavenumber.reciprocal_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.density.kilogram_per_cubic_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.surface_density.kilogram_per_square_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.specific_volume.cubic_metre_per_kilogram" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.current_density.ampere_per_square_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.magnetic_field_strength.ampere_per_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.amount_concentration.mole_per_cubic_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.mass_concentration.kilogram_per_cubic_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.luminance.candela_per_square_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.refractive_index" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.relative_permeability" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.plane_angle.radian" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.solid_angle.steradian" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.frequency.hertz" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.force.newton" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.pressure.pascal" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.energy.joule" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.power.watt" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.electric_charge.coulomb" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.electric_potential_difference.volt" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.capacitance.farad" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.electric_resistance.ohm" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.electric_conductance.siemens" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.magnetic_flex.weber" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.magnetic_flex_density.tesla" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.inductance.henry" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.thermodynamic_temperature.degree_celsius" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.luminous_flux.lumen" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.illuminance.lux" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.activity_referred_to_a_radionuclide.becquerel" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.absorbed_dose.gray" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.dose_equivalent.sievert" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.catalytic_activity.katal" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.dynamic_viscosity.pascal_second" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.moment_of_force.newton_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.surface_tension.newton_per_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.angular_velocity.radian_per_second" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.angular_acceleration.radian_per_second_squared" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.heat_flux_density.watt_per_square_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.heat_capacity.joule_per_kelvin" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.specific_heat_capacity.joule_per_kilogram_kelvin" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.specific_energy.joule_per_kilogram" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.thermal_conductivity.watt_per_metre_kelvin" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.energy_density.joule_per_cubic_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.electric_field_strength.volt_per_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.electric_charge_density.coulomb_per_cubic_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.surface_charge_density.coulomb_per_square_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.electric_flux_density.coulomb_per_square_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.permittivity.farad_per_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.permeability.henry_per_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.molar_energy.joule_per_mole" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.molar_entropy.joule_per_mole_kelvin" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.exposure.coulomb_per_kilogram" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.absorbed_dose_rate.gray_per_second" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.radiant_intensity.watt_per_steradian" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.radiance.watt_per_square_meter_steradian" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.catalytic_activity_concentration.katal_per_cubic_metre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.time.minute" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.time.hour" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.time.day" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.plane_angle.degree" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.plane_angle.minute" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.plane_angle.second" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.area.hectare" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.volume.litre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.mass.tonne" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.pressure.bar" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.pressure.millimetre_of_mercury" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.length.ångström" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.length.nautical_mile" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.area.barn" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.velocity.knot" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.logarithmic_radio_quantity.neper" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.logarithmic_radio_quantity.bel" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.logarithmic_radio_quantity.decibel" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.length.yard" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.length.parsec" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.length.inch" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.length.foot" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.length.mile" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.pressure.pound_force_per_square_inch" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.velocity.kilometer_per_hour" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.velocity.mile_per_hour" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.angular_velocity.revolution_per_minute" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.energy.gram_calorie" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.energy.kilogram_calorie" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.energy.kilowatt_hour" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.thermodynamic_temperature.degree_fahrenheit" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.percentage" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.per_mille" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.period.beats_per_minute" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.electric_charge.ampere_hours" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.mass_density.milligram_per_decilitre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.mass_density.kilogram_per_litre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.mass_density.millimole_per_litre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.mass_density.mole_per_litre" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.time.year" /&gt;
+        &lt;xs:enumeration value="org.bluetooth.unit.time.month" /&gt;
+    &lt;/xs:restriction&gt;
+&lt;/xs:simpleType&gt;</code></pre></td>
+            </tr>
+         </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label" colspan="2"><img id="derivationTree" class="expand" height="11" width="11" src="images/minus.gif" alt="Collapse"></img> <b>Derivation Tree:</b></td>
+            </tr>
+            <tr id="derivationTree_body_id">
+               <td width="120px;"></td>
+               <td>
+                  <ul>
+                     <li><b><i>unit_uri</i></b></li>
+                     <ul>
+                        <li><a href="unit.html">Unit</a></li>
+                     </ul>
+                  </ul>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label" colspan="2"><img id="references" class="expand" height="11" width="11" src="images/minus.gif" alt="Collapse"></img> <b>References:</b></td>
+            </tr>
+            <tr id="references_body_id">
+               <td width="120px;"></td>
+               <td><a href="unit.html">Unit</a></td>
+            </tr>
+         </tbody>
+      </table>
+      <div class="pagefooter"> 
+         Generated using <a href="http://www.liquid-technologies.com/">Liquid XML Studio Designer Edition 9.1.10.3537</a><br></br>Featuring <a href="http://www.liquid-technologies.com/Xsd-To-Html.aspx">XSD to HTML</a>Doc Generation
+      </div>
+   </body>
+</html>

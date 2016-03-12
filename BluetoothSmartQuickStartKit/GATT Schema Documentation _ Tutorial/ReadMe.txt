@@ -1,0 +1,1 @@
+Check out https://schemas.bluetooth.org/Pages/default.aspx for update revision of the schema

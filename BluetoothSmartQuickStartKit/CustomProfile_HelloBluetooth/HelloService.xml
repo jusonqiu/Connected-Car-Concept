@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--  Copyright 2011 Bluetooth SIG, Inc. All rights reserved. 
+  --> 
+<Service xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/service.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="org.bluetooth.service.hello_service" uuid="5ab20001-b355-4d8a-96ef-2963812dd0b8" name="Hello Service" last-modified="2012-04-30" approved="Yes">
+<InformativeText>
+  <Abstract>Hello Bluetooth service is based on the use case specified in the “Hello Bluetooth” profile. It exposes information(attendee's name and company name) to a collector.</Abstract> 
+<Summary>This service exposes information (attendee’s name and company) . This Service is instantiated as a Primary Service and is mandatory. Only one instance of this Service is exposed.</Summary>
+  </InformativeText>
+<Dependencies>
+  <Dependency>This service is not dependent upon any other services.</Dependency> 
+  </Dependencies>
+<Transports>
+  <Classic>true</Classic> 
+  <LowEnergy>true</LowEnergy> 
+  </Transports>
+  <ErrorCodes /> <!-- This service does not define any application error codes that are used in Attribute Protocol.  -->
+<Characteristics>
+<Characteristic name="Attendee Name String" type="org.bluetooth.characteristic.attendee_name_string">
+  <InformativeText>This characteristic represents the attendee's name.</InformativeText> 
+  <Requirement>Mandatory</Requirement> 
+<Properties>
+  <Read>Mandatory</Read> 
+  <Write>Excluded</Write> 
+  <WriteWithoutResponse>Excluded</WriteWithoutResponse> 
+  <SignedWrite>Excluded</SignedWrite> 
+  <ReliableWrite>Excluded</ReliableWrite> 
+  <Notify>Excluded</Notify> 
+  <Indicate>Excluded</Indicate> 
+  <WritableAuxiliaries>Excluded</WritableAuxiliaries> 
+  <Broadcast>Excluded</Broadcast> 
+  </Properties>
+  </Characteristic>
+</Characteristics>
+  </Service>

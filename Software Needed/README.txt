@@ -1,0 +1,1 @@
+The Arduino v 1.0.6 and nRFgo Studio are available for download at the following link: https://goo.gl/x2S9vZ

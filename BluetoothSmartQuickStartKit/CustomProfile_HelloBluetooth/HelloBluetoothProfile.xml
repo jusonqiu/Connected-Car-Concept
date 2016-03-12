@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!-- Copyright 2011 Bluetooth SIG, Inc. All rights reserved. --> 
+<Profile xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/profile.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="org.bluetooth.profile.hello_bluetooth" name="Hello Bluetooth">
+<InformativeText>
+<Abstract>Education Profile to demonstrate creating custom profiles.</Abstract> 
+<Summary>The Hello Bluetooth Profile is a custom profile. There are two roles, "Hello Server" & "Hello Client". Recommended Connection Intervaal: 80 msec, Slave Latency: 0 and Supervision timeout: 2 seconds. USE CASE: A person walks into a conference with his Bluetooth enabled electronic business card. The business card device is sending out advertisement packets. The registration desk computer for the event is also Bluetooth  enabled. It establishes a connection with the business card when the RSSI value is greater than a pre-defined threshold, then it exchanges information (the attendee’s name and company name) with the electronic business card, looks up the attendee’s schedule and displays it on the screen. When the attendee walks away from the registration desk and the RSSI value is below a pre-defined threshold, the registration desk computer terminates the connection. The system could also be programmed to send an email or text message alert to conference staff if the attendee’s name is not in the database.</Summary> 
+</InformativeText>
+<Role name="Hello Server">
+<Service type="org.bluetooth.service.hello_bluetooth">
+<Declaration>PrimarySingleInstance</Declaration> 
+<Requirement>Mandatory</Requirement> 
+</Service>
+</Role>
+<Role name="Hello Client">
+<Client type="org.bluetooth.service.hello_bluetooth">
+<Requirement>Mandatory</Requirement> 
+</Client>
+</Role>
+</Profile>
+
