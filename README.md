@@ -1,6 +1,6 @@
 # Connected Car Concept
 
-The Connected Car Project, GateBox, allows you to operate your garage door and front lawn lights from the car's dashboard itself. It does by having a smartphone interact with a gateway panel (the GateBox panel) that is placed within the garage. The smartphone is mirrored onto the car's dashboard. This is possible using a number of Connected Car features which are likely to grow popular in the future such as: Android Auto, Apple CarPlay, MirrorLink, AppLink, etc. This project was entered into the Microsoft Imagine Cup competition of 2015.
+The Connected Car Project, GateBox, allows you to operate your garage door and front lawn lights from the car's dashboard itself. It does this by having a smartphone interact with a gateway panel (the GateBox panel) that is placed within the garage. The smartphone is mirrored onto the car's dashboard. This is possible using a number of Connected Car features which are likely to grow popular in the future such as: Android Auto, Apple CarPlay, MirrorLink, AppLink, etc. This project was entered into the Microsoft Imagine Cup competition of 2015.
 
 Please watch the introduction video below:
 
