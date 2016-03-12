@@ -10,6 +10,7 @@ Please watch the introduction video below:
 alt="Connected Car Demonstration" width="420" height="315" border="10" /></a>
 </div>
 
+The Github.io page is can be seen [here](http://shafeeqr2.github.io/Connected-Car-Concept/ "GateBox").
 ## Opensource
 Since the Microsoft Imagine Cup competition, this project has been released on Github in hopes that it can be improved upon. The orignal app developed is in the "Windows Application Folder". Some of the files that were submitted to Microsoft judges are in the "Imagine Cup Files" folder. These files have been slightly modified since submission. 
 
